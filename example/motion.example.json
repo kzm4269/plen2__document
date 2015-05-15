@@ -1,0 +1,74 @@
+{
+	"id" : 0,
+	"name" : "LStep",
+	"code" : [
+		{
+			"function" : "loopFrame()",
+			"argument" : [ 1, 10 ]
+		},
+		{
+			"function" : "stopFrame()",
+			"argument" : [ 2, 11, "end" ]
+		}
+	],
+	"frame" : [
+		{
+			"transition_time_msec" : 100,
+			"output" : [
+				{ "joint" : 0,  "value" : 0 },
+				{ "joint" : 1,  "value" : 0 },
+				{ "joint" : 2,  "value" : 0 },
+				{ "joint" : 3,  "value" : 0 },
+				{ "joint" : 4,  "value" : 0 },
+				{ "joint" : 5,  "value" : 0 },
+				{ "joint" : 6,  "value" : 0 },
+				{ "joint" : 7,  "value" : 0 },
+				{ "joint" : 8,  "value" : 0 },
+				{ "joint" : 9,  "value" : 0 },
+				{ "joint" : 10, "value" : 0 },
+				{ "joint" : 11, "value" : 0 },
+				{ "joint" : 12, "value" : 0 },
+				{ "joint" : 13, "value" : 0 },
+				{ "joint" : 14, "value" : 0 },
+				{ "joint" : 15, "value" : 0 },
+				{ "joint" : 16, "value" : 0 },
+				{ "joint" : 17, "value" : 0 },
+				{ "joint" : 18, "value" : 0 },
+				{ "joint" : 19, "value" : 0 },
+				{ "joint" : 20, "value" : 0 },
+				{ "joint" : 21, "value" : 0 },
+				{ "joint" : 22, "value" : 0 },
+				{ "joint" : 23, "value" : 0 }
+			]
+		},
+		{
+			"transition_time_msec" : 140,
+			"output" : [
+				{ "joint" : 0,  "value" : 0   },
+				{ "joint" : 1,  "value" : 0   },
+				{ "joint" : 2,  "value" : 0   },
+				{ "joint" : 3,  "value" : 0   },
+				{ "joint" : 4,  "value" : -20 },
+				{ "joint" : 5,  "value" : 0   },
+				{ "joint" : 6,  "value" : 0   },
+				{ "joint" : 7,  "value" : 0   },
+				{ "joint" : 8,  "value" : -60 },
+				{ "joint" : 9,  "value" : 0   },
+				{ "joint" : 10, "value" : 0   },
+				{ "joint" : 11, "value" : 0   },
+				{ "joint" : 12, "value" : 0   },
+				{ "joint" : 13, "value" : 0   },
+				{ "joint" : 14, "value" : 0   },
+				{ "joint" : 15, "value" : 0   },
+				{ "joint" : 16, "value" : -20 },
+				{ "joint" : 17, "value" : 0   },
+				{ "joint" : 18, "value" : 0   },
+				{ "joint" : 19, "value" : 0   },
+				{ "joint" : 20, "value" : -60 },
+				{ "joint" : 21, "value" : 0   },
+				{ "joint" : 22, "value" : 0   },
+				{ "joint" : 23, "value" : 0   }
+			]
+		}
+	]
+}
