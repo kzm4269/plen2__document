@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 PLEN project. All rights reserved. -->
+<UI type="basic">
+    <Mode type="basic" name="Normal" image="p_mode_normal" pressed="p_mode_normal_pressed">
+        <Command type="Button">
+            <Action key="0" name="0" value="$MP00" image="p_normal_rstep" pressed="p_normal_rstep_pressed"/>
+            <Action key="1" name="1" value="$MP01" image="p_normal_onestep" pressed="p_normal_onestep_pressed"/>
+            <Action key="2" name="2" value="$MP02" image="p_normal_lstep" pressed="p_normal_lstep_pressed"/>
+            <Action key="3" name="3" value="$MP03" image="p_normal_ehen" pressed="p_normal_ehen_pressed"/>
+            <Action key="4" name="4" value="$MP04" image="p_normal_hello" pressed="p_normal_hello_pressed"/>
+            <Action key="5" name="5" value="$MP05" image="p_normal_love" pressed="p_normal_love_pressed"/>
+            <Action key="6" name="6" value="$MP06" image="p_normal_hug" pressed="p_normal_hug_pressed"/>
+            <Action key="7" name="7" value="$MP07" image="p_normal_handclap" pressed="p_normal_handclap_pressed"/>
+            <Action key="8" name="8" value="$MP08" image="p_normal_hitouch" pressed="p_normal_hitouch_pressed"/>
+        </Command>
+        <Command type="Wheel">
+            <Action key="up" value="$MP46" />
+            <Action key="center" value="$MS" />
+            <Action key="down" value="$MP49" />
+            <Action key="left" value="$MP47" />
+            <Action key="right" value="$MP48" />
+        </Command>
+    </Mode>
+    <Mode type="basic" name="Box" image="p_mode_box" pressed="p_mode_box_pressed">
+        <Command type="Button">
+            <Action key="0" name="b0" value="$MP0A" image="p_box_shake" pressed="p_box_shake_pressed"/>
+            <Action key="1" name="b1" value="$MP0B" image="p_box_lift_high" pressed="p_box_lift_high_pressed"/>
+            <Action key="2" name="b2" value="$MP0C" image="p_box_lift_low" pressed="p_box_lift_low_pressed"/>
+            <Action key="3" name="b3" value="$MP0D" image="p_box_receive" pressed="p_box_receive_pressed"/>
+            <Action key="4" name="b4" value="$MP0E" image="p_box_holdup" pressed="p_box_holdup_pressed"/>
+            <Action key="5" name="b5" value="$MP0F" image="p_box_give" pressed="p_box_give_pressed"/>
+            <Action key="6" name="b6" value="$MP10" image="p_box_throw" pressed="p_box_throw_pressed"/>
+            <Action key="7" name="b7" value="$MP11" image="p_box_takedown_high" pressed="p_box_takedown_high_pressed"/>
+            <Action key="8" name="b8" value="$MP12" image="p_box_takedown_low" pressed="p_box_takedown_low_pressed"/>
+        </Command>
+        <Command type="Wheel">
+            <Action key="up" value="$MP4A" />
+            <Action key="center" value="$MS" />
+            <Action key="down" value="$MP4D" />
+            <Action key="left" value="$MP4B" />
+            <Action key="right" value="$MP4C" />
+        </Command>
+    </Mode>
+    <Mode type="basic" name="Soccer" image="p_mode_soccer" pressed="p_mode_soccer_pressed">
+        <Command type="Button">
+            <Action key="0" name="s0" value="$MP14" image="p_normal_lstep" pressed="p_normal_lstep_pressed"/>
+            <Action key="1" name="s1" value="$MP15" image="p_normal_onestep" pressed="p_normal_onestep_pressed"/>
+            <Action key="2" name="s2" value="$MP16" image="p_normal_rstep" pressed="p_normal_rstep_pressed"/>
+            <Action key="3" name="s3" value="$MP17" image="p_soccer_l_kick" pressed="p_soccer_l_kick_pressed"/>
+            <Action key="4" name="s4" value="$MP18" image="p_soccer_5dash" pressed="p_soccer_5dash_pressed"/>
+            <Action key="5" name="s5" value="$MP19" image="p_soccer_r_kick" pressed="p_soccer_r_kick_pressed"/>
+            <Action key="6" name="s6" value="$MP1A" image="p_soccer_l_pass" pressed="p_soccer_l_pass_pressed"/>
+            <Action key="7" name="s7" value="$MP1B" image="p_normal_handclap" pressed="p_normal_handclap_pressed"/>
+            <Action key="8" name="s8" value="$MP1C" image="p_soccer_r_pass" pressed="p_soccer_r_pass_pressed"/>
+        </Command>
+        <Command type="Wheel">
+            <Action key="up" value="$MP46" />
+            <Action key="center" value="$MS" />
+            <Action key="down" value="$MP49" />
+            <Action key="left" value="$MP47" />
+            <Action key="right" value="$MP48" />
+        </Command>
+    </Mode>
+    <Mode type="basic" name="Dance" image="p_mode_dance" pressed="p_mode_dance_pressed">
+        <Command type="Button">
+            <Action key="0" name="m0" value="$MP1E" image="p_dance_rhythm_lstep" pressed="p_dance_rhythm_lstep_pressed"/>
+            <Action key="1" name="m1" value="$MP1F" image="p_dance_rhythm_onestep" pressed="p_dance_rhythm_onestep_pressed"/>
+            <Action key="2" name="m2" value="$MP20" image="p_dance_rhythm_rstep" pressed="p_dance_rhythm_rstep_pressed"/>
+            <Action key="3" name="m3" value="$MP21" image="p_dance_kimepose" pressed="p_dance_kimepose_pressed"/>
+            <Action key="4" name="m4" value="$MP22" image="p_dance_kusshin" pressed="p_dance_kusshin_pressed"/>
+            <Action key="5" name="m5" value="$MP23" image="p_dance_rhythm" pressed="p_dance_rhythm_pressed"/>
+            <Action key="6" name="m6" value="$MP24" image="p_dance_rhythm_back" pressed="p_dance_rhythm_back_pressed"/>
+            <Action key="7" name="m7" value="$MP25" image="p_normal_hello" pressed="p_normal_hello_pressed"/>
+            <Action key="8" name="m8" value="$MP26" image="p_dance_twist" pressed="p_dance_twist_pressed"/>
+        </Command>
+        <Command type="Wheel">
+            <Action key="up" value="$MP46" />
+            <Action key="center" value="$MS" />
+            <Action key="down" value="$MP49" />
+            <Action key="left" value="$MP47" />
+            <Action key="right" value="$MP48" />
+        </Command>
+    </Mode>
+    <Mode type="basic" name="Skate" image="p_mode_skate" pressed="p_mode_skate_pressed">
+        <Command type="Button">
+            <Action key="0" name="sk0" value="$MP28" image="p_skate_l_balance" pressed="p_skate_l_balance_pressed"/>
+            <Action key="1" name="sk1" value="$MP29" image="p_skate_mae_brake" pressed="p_skate_mae_brake_pressed"/>
+            <Action key="2" name="sk2" value="$MP2A" image="p_skate_r_balance" pressed="p_skate_r_balance_pressed"/>
+            <Action key="3" name="sk3" value="$MP2B" image="p_skate_l_t_balance" pressed="p_skate_l_t_balance_pressed"/>
+            <Action key="4" name="sk4" value="$MP2C" image="p_skate_chokuritsu" pressed="p_skate_chokuritsu_pressed"/>
+            <Action key="5" name="sk5" value="$MP2D" image="p_skate_r_t_balance" pressed="p_skate_r_t_balance_pressed"/>
+            <Action key="6" name="sk6" value="$MP2E" image="p_skate_l_tsumasaki" pressed="p_skate_l_tsumasaki_pressed"/>
+            <Action key="7" name="sk7" value="$MP2F" image="p_skate_ushiro_brake" pressed="p_skate_ushiro_brake_pressed"/>
+            <Action key="8" name="sk8" value="$MP30" image="p_skate_r_tsumasaki" pressed="p_skate_r_tsumasaki_pressed"/>
+        </Command>
+        <Command type="Wheel">
+            <Action key="up" value="$MP4E" />
+            <Action key="center" value="$MS" />
+            <Action key="down" value="$MP51" />
+            <Action key="left" value="$MP4F" />
+            <Action key="right" value="$MP50" />
+        </Command>
+    </Mode>
+</UI>
